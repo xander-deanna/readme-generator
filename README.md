@@ -21,13 +21,10 @@ Please make sure you have [node installed](https://nodejs.org/en/download/). You
             
 ## Usage
 **README Generator** requires npm packages to run. Please make sure [node is installed](https://nodejs.org/en/download/) prior to cloning the repo. You can find instructions for installing node on the [node website](https://nodejs.org/en/download/).
-<br>
-* After you're sure node.js has been installed correctly, clone the **[README Generator](https://github.com/xander-deanna/readme-generator)** locally onto your computer. Instructions on how to clone from Github can be found on [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+* After you're sure node.js has been installed correctly, clone the [README Generator Repo](https://github.com/xander-deanna/readme-generator) locally onto your computer. Instructions on how to clone from Github can be found on [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 * Once the repo has been cloned, please navigate to the correct directory using your terminal or other command line application. 
 * Type <code>npm init -y</code> into the command line, and hit <kbd>enter</kbd>.
-<br>
 * Next type <code>npm install inquirer</code> into the command line, and hit <kbd>enter</kbd> to [install inquirer](https://www.npmjs.com/package/inquirer).
-<br>
 * After inquirer has been installed, you can simply type <code>node index.js</code> and hit <kbd>enter</kbd> to start the application.
 * From here, just follow the prompts in the app to generate your README doc!
 <br>
