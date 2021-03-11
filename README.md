@@ -3,7 +3,6 @@
 This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful.
 <br>
 <hr>
-<br>
     
 ## Table of Contents
 * [Requirements](#Requirements)
@@ -11,7 +10,6 @@ This homework assignment for 03/06/2021 is a node.js application that allows the
 * [Demo](#Demo)
 * [Contact](#Contact)
 * [License](#License)
-<br>
 <br>
 <hr>
 <br>
