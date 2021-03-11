@@ -1,9 +1,9 @@
-// Packages needed for this application
+// packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const writeReadMe = (fs.writeFileSync)
 
-// Inquirer script to ask questions
+// inquirer script to ask questions
 const inquirerQuestions = () => {
   return inquirer.prompt([
     // Intro
@@ -15,7 +15,7 @@ const inquirerQuestions = () => {
     {
       type: "input",
       name: "empty2",
-      message: `First, tell me a little about yourself! (Hit enter please!) \n  ------- \n`
+      message: `First, tell me a little about yourself! (Hit enter to start please!) \n  ------- \n`
     },
     // Personal details
     {
@@ -52,8 +52,8 @@ const inquirerQuestions = () => {
     },
     {
       type: 'input',
-      name: 'install',
-      message: 'Are there any steps required to install your project?',
+      name: 'requirements',
+      message: 'Are there any requirements to run or use your project?',
     },
     {
       type: 'input',
@@ -67,8 +67,9 @@ const inquirerQuestions = () => {
       choices: 
         [
         "Apache",
-        "IBM",
+        "Creative Commons",
         "GNU",
+        "IBM",
         "ISC",
         "MIT",
         "Mozilla",
@@ -80,76 +81,92 @@ const inquirerQuestions = () => {
 }
 
 //license function
-function renderLicenseBadge(license) {
-  //return  `[![License:${license}](https://img.shields.io/badge/license-${renderLicenseSection(license)})](${renderLicenseLink(license)})<br>`
-
-  return  `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>`
+function licenseIcon(license) {
+  // switch statement that renders licence badges
+  switch(license) {
+    case "Apache": 
+      return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+      break;
+    case "Creative Commons":
+      return `[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)`
+      break;
+    case "GNU":
+      return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+      break;
+    case "IBM":
+      return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
+    case "ISC":
+      return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+      break;
+    case "MIT":
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+      break;
+    case "Mozilla":
+      return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+    case "Open":
+      return `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)`
+      break;
+    case "None":
+      return ``
+    default:
+      return ``
+  }
 }
 
-// Function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-    # ${data.title}
-    ${renderLicenseBadge(data.license)}
-    <br>
-    <br>
-    <hr>
-    <br>
+  return `# **${data.title}** - ${licenseIcon(data.license)}
     
-    ## Description
-    ${data.description}
-    <br>
-    <br>
-    <hr>
-    <br>
+${data.description}
+<br>
+<hr>
+<br>
     
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contact](#Contact)
-    <br>
-    <br>
-    <hr>
-    <br>
+## Table of Contents
+* [Requirements](#Requirements)
+* [Usage](#usage)
+* [Contact](#Contact)
+* [License](#license)
+<br>
+<br>
+<hr>
+<br>
                 
-    ## Installation
-    ${data.install}
-    <br>
-    <br>
+## Requirements
+${data.requirements}
+<br>
+<br>
             
-    ## Usage
-    ${data.usage}
-    <br>
-    <br>
+## Usage
+${data.usage}
+<br>
+<br>
     
-    ## License
-    This application was created by ${data.name} and is covered under the ${data.license} license.
-    <br>
-    <br>
+## Contact
+Please feel free to contact me with any questions you might have, using the following information:
     
-    ## Contact
-    Please feel free to contact me with any questions you might have, using the following information:
-    
-    Email: [${data.email}](mailto:${data.email})
-    <br>
-    Github: [${data.username}](https://github.com/${data.username})
-    <br>
-    
-    Any and all feedback is welcome. Enjoy! :D
-    `;
+Email: [${data.email}](mailto:${data.email})
+<br>
+Github: [https://github.com/${data.github}](https://github.com/${data.github})
+<br>
+<br>
+
+## License
+This application was created by ${data.name} and is covered under the ${data.license} license.
+<br>
+<br>
+`;
 }
 
-// Function to write the README file
+// function to write the README file
 const init = () => {
   inquirerQuestions() 
   .then((data) => {
     console.log(`\nAWESOME! Your README is now finished! \nJust navigate to the "finished" folder and take a peep at the file called yourREADME.md \n\n:)\n`)
     writeReadMe('./finished/yourREADME.md', generateMarkdown(data))
   })
- // .then (() => writeReadMe('./Finished/yourREADME.md', generateMarkdown()))
   .catch((err) => console.error(err));
 }
 
-// Function call to initialize app
+// function call to initialize app
 init();
