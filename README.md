@@ -10,7 +10,6 @@ This homework assignment for 03/06/2021 is a node.js application that allows the
 * [Demo](#Demo)
 * [Contact](#Contact)
 * [License](#License)
-<br>
 <hr>
 <br>
                 
