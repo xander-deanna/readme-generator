@@ -1,6 +1,6 @@
 # **README Generator**  -  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
     
-This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful.
+This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful. You can find video demos of the app [here](https://github.com/xander-deanna/readme-generator/tree/main/Demo/mov) or you can checkout the [Demo](#Demo) portion of this README to view some demo gifs.
 <br>
 <hr>
 <br>
@@ -31,7 +31,13 @@ Please make sure you have [node installed](https://nodejs.org/en/download/). You
 <br>
 
 ## Demo
-
+Here are a few gifs to help demonstrate that app's usage:
+<br>
+![installation gif](./Demo/gif/installation.gif)
+<br>
+![main demo gif](./Demo/gif/main-demo.gif)
+<br>
+![final result gif](./Demo/gif/final-result.gif)
 <br>
 <br>
     
@@ -43,7 +49,7 @@ Email: [xander.deanna@gmail.com](mailto:xander.deanna@gmail.com)
 Github: [https://github.com/xander-deanna](https://github.com/xander-deanna)
 <br>
 
-Any and all feedback is welcome! <code>:D</code>
+Any and all feedback is welcome! 
 <br>
 <br>
     
@@ -51,5 +57,8 @@ Any and all feedback is welcome! <code>:D</code>
 This application was created by Deanna Alexander and is covered under the [Creative Commons license](https://creativecommons.org/licenses/by/4.0/).
 <br>
 Copywrite © 2021
+<br>
+<br>
+## <code>ツ</code>
 <br>
 <br>
