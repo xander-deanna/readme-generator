@@ -3,7 +3,7 @@
 This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful. 
 <br>
 <br>
-You can find video demos of the app [here](https://github.com/xander-deanna/readme-generator/tree/main/Demo/mov) or you can checkout the [Demo](#Demo) portion of **this** README to view some demo gifs.
+You can find video demos of the app [here](https://github.com/xander-deanna/readme-generator/tree/main/Demo/mov) or you can check out the [Demo](#Demo) portion of **this** README to view some demo gifs.
 <br>
 <br>
 <hr>
