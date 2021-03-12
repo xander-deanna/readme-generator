@@ -31,7 +31,6 @@ Please make sure you have [node installed](https://nodejs.org/en/download/). You
 * After inquirer has been installed, you can simply type <code>node index.js</code> and hit <kbd>enter</kbd> to start the application.
 * From here, just follow the prompts in the app to generate your README doc!
 <br>
-<br>
 
 ## Demo
 Here are a few gifs to help demonstrate the app's usage:
