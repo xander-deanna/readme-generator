@@ -56,7 +56,7 @@ Any and all feedback is welcome!
 <br>
     
 ## License
-This application was created by Deanna Alexander and is covered under the [Do What the F*** You Want License (WTFPL)](https://creativecommons.org/licenses/by/4.0/).
+This application was created by Deanna Alexander and is covered under the [Do What the F*** You Want License (WTFPL)](http://www.wtfpl.net/about/).
 <br>
 Copywrite © 2021
 <br>
