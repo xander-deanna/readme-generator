@@ -1,9 +1,17 @@
-# ****README Generator**** - [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator *Sample* README - [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
     
-This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful.
+This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! 
+<br>
+
+### You are currently reading a *sample* README generated using the project. **Your README file will replace this one if you decide to run the script!** 
+<br>
+
+If you are lost and are looking for *my* README for the app itself, [please click here](https://github.com/xander-deanna/readme-generator/blob/main/README.md).
+<br>
 <br>
 <hr>
-<br>
+
     
 ## Table of Contents
 * [Requirements](#Requirements)
@@ -11,39 +19,34 @@ This homework assignment for 03/06/2021 is a node.js application that allows the
 * [Contact](#Contact)
 * [License](#license)
 <br>
-<br>
 <hr>
 <br>
                 
 ## Requirements
-Please make sure you have [node installed](https://nodejs.org/en/download/). You'll also need to download the [npm inquirer package](https://www.npmjs.com/package/inquirer), as this is a dependancy for the app to run. See ["Usage"](#Usage) below for more details.
+Here is where you would list any requirements for your app. For example, you'll want to make sure to have [node installed](https://nodejs.org/en/download/) for my application, and I would include those instructions in the README here.
 <br>
 <br>
             
 ## Usage
-**README Generator** requires npm packages to run. Please make sure [node is installed](https://nodejs.org/en/download/) prior to cloning the repo. You can find instructions for installing node on the [node website](https://nodejs.org/en/download/).
+Some applications require other packages or installations to run. Here is where your would list any steps necessary to run your application. This section goes hand in hand with ["Requirements"](#Requirements).
 <br>
-* After you're sure node.js has been installed correctly, clone the **[README Generator](https://github.com/xander-deanna/readme-generator)** locally onto your computer. Instructions on how to clone from Github can be found on [Github Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-* Once the repo has been cloned, please navigate to the correct directory using your terminal or other command line application. 
-* Type <code>npm init -y</code> into the command line, and hit <kbd>enter</kbd>.
-<br>
-* Next type <code>npm install inquirer</code> into the command line, and hit <kbd>enter</kbd> to [install inquirer](https://www.npmjs.com/package/inquirer).
-<br>
-* After inquirer has been installed, you can simply type <code>node index.js</code> and hit <kbd>enter</kbd> to start the application.
-* From here, just follow the prompts in the app to generate your README doc!
+* Here is a sample step.
+* Sample step two!
+* You can even get fancy with a bit of markdown syntax <code>like this</code> or like <kbd>this</kbd>, but I reconmend editing this after the file is already generated, *not* in the command line.
+* Sample step four!
 <br>
 <br>
     
 ## Contact
-Please feel free to contact me with any questions you might have, using the following information:
+This is where your contact info will be displayed. Here is an example:
     
-Email: [xander.deanna@gmail.com](mailto:xander.deanna@gmail.com)
+Email: [youremail@email.com](mailto:youremail@email.com)
 <br>
-Github: [https://github.com/xander-deanna](https://github.com/xander-deanna)
+Github: [https://github.com/this_is_not_an_account](https://github.com/this_is_your_account)
 <br>
 <br>
 
 ## License
-This application was created by Deanna Alexander and is covered under the Apache license.
+This is where the license info goes. This application was created by *Your Name Here* and is covered under the [Do What the F*** You Want License (WTFPL)](http://www.wtfpl.net/about/).
 <br>
 <br>

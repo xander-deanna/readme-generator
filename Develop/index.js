@@ -74,7 +74,7 @@ const inquirerQuestions = () => {
         "MIT",
         "Mozilla",
         "Open",
-        "None"
+        "WTFPL"
         ],
     }
   ])
@@ -106,10 +106,10 @@ function licenseIcon(license) {
     case "Open":
       return `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)`
       break;
-    case "None":
-      return ``
+    case "WTFPL":
+      return `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
     default:
-      return ``
+      return `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
   }
 }
 
@@ -119,16 +119,14 @@ function generateMarkdown(data) {
     
 ${data.description}
 <br>
-<hr>
 <br>
+<hr>
     
 ## Table of Contents
 * [Requirements](#Requirements)
 * [Usage](#usage)
 * [Contact](#Contact)
 * [License](#license)
-<br>
-<br>
 <hr>
 <br>
                 

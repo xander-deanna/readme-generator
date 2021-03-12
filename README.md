@@ -1,9 +1,12 @@
-# **README Generator**  -  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# **README Generator**  -  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
     
-This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful. You can find video demos of the app [here](https://github.com/xander-deanna/readme-generator/tree/main/Demo/mov) or you can checkout the [Demo](#Demo) portion of this README to view some demo gifs.
+This homework assignment for 03/06/2021 is a node.js application that allows the user to input data on the command line. The user responses are then used to generate a README document for their project! I had a lot of fun with this assignment, and hope fellow peers will find it useful. 
+<br>
+<br>
+You can find video demos of the app [here](https://github.com/xander-deanna/readme-generator/tree/main/Demo/mov) or you can checkout the [Demo](#Demo) portion of **this** README to view some demo gifs.
+<br>
 <br>
 <hr>
-<br>
     
 ## Table of Contents
 * [Requirements](#Requirements)
@@ -31,7 +34,7 @@ Please make sure you have [node installed](https://nodejs.org/en/download/). You
 <br>
 
 ## Demo
-Here are a few gifs to help demonstrate that app's usage:
+Here are a few gifs to help demonstrate the app's usage:
 <br>
 ![installation gif](./Demo/gif/installation.gif)
 <br>
@@ -54,7 +57,7 @@ Any and all feedback is welcome!
 <br>
     
 ## License
-This application was created by Deanna Alexander and is covered under the [Creative Commons license](https://creativecommons.org/licenses/by/4.0/).
+This application was created by Deanna Alexander and is covered under the [Do What the F*** You Want License (WTFPL)](http://www.wtfpl.net/about/).
 <br>
 Copywrite © 2021
 <br>
